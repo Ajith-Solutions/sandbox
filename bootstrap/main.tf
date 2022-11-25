@@ -181,7 +181,7 @@ resource "google_cloudbuild_trigger" "master" {
   description = "terragrunt apply on push to master"
 
   github {
-    owner = "ajithtenneti"
+    owner = "ajith4uuu"
     name  = "sandbox"
     push {
       branch = "^main$"
@@ -205,7 +205,7 @@ resource "google_cloudbuild_trigger" "pull_requests" {
   description = "terragrunt plan on pull requests"
 
   github {
-    owner = "ajithtenneti"
+    owner = "ajith4uuu"
     name  = "sandbox"
     pull_request {
       branch = "^main$"
