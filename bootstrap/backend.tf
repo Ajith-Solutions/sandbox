@@ -1,6 +1,6 @@
 terraform {
   backend "gcs" {
-    bucket = "gclt-shr-terraform-state"
+    bucket = "sdbx-shr-terraform-state"
     prefix = "bootstrap"
   }
 }
