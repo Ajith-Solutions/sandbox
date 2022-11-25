@@ -4,7 +4,7 @@ locals {
 }
 
 terraform {
-  source = "github.com/Ajith-Solutions/terraform-modules//stacks/folder"
+  source = "github.com/ajith4uuu/terraform-modules//stacks/folder"
 }
 
 # Include all settings from the root terragrunt.hcl file

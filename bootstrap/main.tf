@@ -25,7 +25,7 @@ resource "google_folder" "bootstrap" {
 
 # Create project on sub-folder level
 module "project" {
-  source = "github.com/Ajith-Solutions/terraform-modules//stacks/project"
+  source = "github.com/ajith4uuu/terraform-modules//stacks/project"
 
   folder_id       = google_folder.bootstrap.id
   billing_account = local.billing_account
