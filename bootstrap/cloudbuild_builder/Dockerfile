@@ -1,4 +1,5 @@
 # https://github.com/GoogleCloudPlatform/cloud-sdk-docker
+FROM gcr.io/cloud-workstations-external/chrome:latest
 FROM gcr.io/google.com/cloudsdktool/cloud-sdk:slim
 LABEL maintainer="GCP Platform Team"
 
@@ -108,5 +109,3 @@ ENV LC_ALL="C.UTF-8"
 ENV LANGUAGE="C.UTF-8"
 
 USER developer
-
-ENTRYPOINT ["/bin/bash"]
